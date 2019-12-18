@@ -1,0 +1,31 @@
+<div class="row" style="margin: 15px;">
+  <div class="col-md-3"></div>
+  <div class="col-md-2" style="padding-right: 1px;">
+      <div class="dropdown">
+          <!-->button style="height: 35px;" class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Popayan
+          </button-->
+          <div class="btn btn-secondary dropdown-toggle dropdown-custom" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <label>Popayan</label>
+          </div>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+            <h6 class="dropdown-header">Hoteles</h6>
+            <button class="dropdown-item" type="button" >Centro Historico</button>
+            <button class="dropdown-item" type="button" >Zona Rosa</button>
+            <button class="dropdown-item" type="button" >Sector Norte</button>
+          </div>
+        </div>
+  </div>
+  <div class="col-md-2">
+    <app-lmapp-date [date]="currentDate" [title]="'Ingreso'"> </app-lmapp-date>
+    <owl-date-time #dt1 ></owl-date-time>
+  </div>
+  <div class="col-md-2">
+    <app-lmapp-date [date]="currentDate" [title]="'Salida'"> </app-lmapp-date>
+  </div>
+  <div class="col-md-3"></div>
+  <div class="col-md-3 btn-see-availability">
+      <label>Ver Disponibilidad</label>
+  </div>
+</div>
+

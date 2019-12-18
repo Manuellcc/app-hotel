@@ -1,0 +1,15 @@
+.lmapp-date{
+    border: 2px solid #003d7e;
+    border-radius: 5px;
+}
+
+.lmapp-date:hover{
+    background-color: #003d7e;
+    color: #ffffff;
+}
+
+.lmapp-date-day{
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}

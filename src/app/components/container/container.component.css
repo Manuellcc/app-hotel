@@ -1,0 +1,22 @@
+.dropdown-custom label{
+    font-size: 20px;
+}
+.dropdown-custom{
+    width: 100%;
+}
+
+.btn-see-availability{
+    background-color: #6c757d;
+    color: #ffffff;
+    border: 2px solid #6c757d;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.btn-see-availability label{
+    font-size: 25px;
+    font-weight: bold;
+}
